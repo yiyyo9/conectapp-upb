@@ -191,33 +191,24 @@
                </div>
             </nav>
          </header>
-         <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-            <div class="container-fluid py-5">
-               <h1 class="display-5 fw-bold">Conecta con profesores y expertos</h1>
-               <p class="col-md-8 fs-4">ConectAPP UPB es una plataforma que permite a los estudiantes de la Universidad
-                  Pontificia Bolivariana agendar clases con profesores y otros estudiantes más avanzados para mejorar
-                  sus conocimientos. Los estudiantes experimentados también pueden ganar dinero compartiendo su
-                  experiencia.</p>
-               <button class="btn btn-primary btn-lg" type="button">Descubre más</button>
-            </div>
-         </div>
-         <div class="row align-items-md-stretch">
-            <div class="col-md-6">
-               <div class="h-100 p-5 text-bg-dark rounded-3">
-                  <h2>Regístrate como profesor</h2>
-                  <p>¿Eres un estudiante avanzado o profesor en la UPB? Regístrate en la plataforma y comienza a ofrecer
-                     tutorías en las áreas que dominas.</p>
-                  <button class="btn btn-outline-light" type="button">Regístrate</button>
+         <div class="container py-4">
+            <h1 class="display-5 fw-bold">Contáctanos</h1>
+            <p class="fs-4">Si tienes preguntas o comentarios sobre ConectAPP UPB, por favor completa el siguiente formulario:</p>
+            <form>
+               <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" required>
                </div>
-            </div>
-            <div class="col-md-6">
-               <div class="h-100 p-5 bg-body-tertiary border rounded-3">
-                  <h2>Agenda clases fácilmente</h2>
-                  <p>Busca profesores o estudiantes con experiencia y agendá clases de manera rápida y sencilla según
-                     tus necesidades académicas.</p>
-                  <button class="btn btn-outline-secondary" type="button">Buscar clases</button>
+               <div class="mb-3">
+                  <label for="email" class="form-label">Correo electrónico</label>
+                  <input type="email" class="form-control" id="email" required>
                </div>
-            </div>
+               <div class="mb-3">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+               </div>
+               <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
          </div>
          <footer class="pt-3 mt-4 text-body-secondary border-top">
             &copy; 2024 ConectAPP UPB
